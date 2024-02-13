@@ -69,7 +69,7 @@ export function initApp(configurationService: ConfigurationService) {
 }
 
 export function resolveAuthenticatedUserEndpoint() {
-  return '/api/authenticated-user';
+  return '/groups-api/authenticated-user';
 }
 
 export function createTranslateLoader(): TranslateLoader {

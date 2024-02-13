@@ -1,5 +1,5 @@
 {
-  "/api": {
+  "/groups-api": {
     "target": "http://localhost:9302",
     "secure": false
   }
