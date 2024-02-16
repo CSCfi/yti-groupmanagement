@@ -40,7 +40,7 @@ msgstr "ORGANISATIONER"
 msgid "USERS"
 msgstr "ANVÄNDARE"
 
-msgid "Interoperability platform's user right management"
+msgid "User right management"
 msgstr "Administrering av behörigheter i Interoperabilitetsplattformen"
 
 msgid "Impersonate user"
