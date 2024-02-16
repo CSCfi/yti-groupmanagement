@@ -14,7 +14,7 @@ import {ConfigurationService} from "../../services/configuration.service";
       <div class="navbar-header">
         <a id="main_page_link" class="navbar-brand" [routerLink]="['/']">
           <!--<app-logo></app-logo>-->
-          <span translate>Interoperability platform's user right management</span>
+          <span translate>User right management</span>
           <span *ngIf="environmentIdentifier">{{environmentIdentifier}}</span>
         </a>
       </div>
@@ -70,11 +70,7 @@ import {ConfigurationService} from "../../services/configuration.service";
             </a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" id="navigation_link_user_details" [routerLink]="['/userDetails']" translate>User details</a>
-            <a class="dropdown-item" id="navigation_interoperability_platform_link" href="https://yhteentoimiva.suomi.fi" target="_blank" rel="noopener noreferrer" translate>yhteentoimiva.suomi.fi</a>
-            <a class="dropdown-item" id="navigation_reference_data_link" [href]="configService.codeListUrl" target="_blank" rel="noopener noreferrer" translate>Suomi.fi Reference Data</a>
-            <a class="dropdown-item" id="navigation_terminologies_link" [href]="configService.terminologyUrl" target="_blank" rel="noopener noreferrer" translate>Suomi.fi Terminologies</a>
-            <a class="dropdown-item" id="navigation_data_vocabularies_link" [href]="configService.dataModelUrl" target="_blank" rel="noopener noreferrer" translate>Suomi.fi Data Vocabularies</a>
-            <a class="dropdown-item" id="navigation_comments_link" [href]="configService.commentsUrl" target="_blank" rel="noopener noreferrer" translate>Suomi.fi Comments</a>
+            
           </div>
         </li>
       </ul>
@@ -84,8 +80,6 @@ import {ConfigurationService} from "../../services/configuration.service";
 export class NavigationBarComponent {
 
   availableLanguages = [
-    { code: 'fi' as Language, name: 'Suomeksi (FI)' },
-    { code: 'sv' as Language, name: 'På svenska (SV)' },
     { code: 'en' as Language, name: 'In English (EN)' }
   ];
 
